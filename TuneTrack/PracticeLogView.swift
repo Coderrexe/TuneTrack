@@ -8,11 +8,37 @@
 import SwiftUI
 
 struct PracticeLogView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+    @State private var practiceSessions: [(Date, Date)] = []
+    @State private var isPracticing = false
+    @State private var startTime = Date()
 
-#Preview {
-    PracticeLogView()
+    func logPracticeSession() {
+        let endTime = Date()
+        practiceSessions.append((startTime, endTime))
+    }
+
+    var body: some View {
+        VStack {
+            if isPracticing {
+                Text("Practicing...")
+            } else {
+                Text("Not Practicing")
+            }
+
+            Button(isPracticing ? "Stop Practice" : "Start Practice") {
+                isPracticing.toggle()
+                if isPracticing {
+                    startTime = Date()
+                } else {
+                    logPracticeSession()
+                }
+            }
+
+            List(practiceSessions, id: \.0) { session in
+                Text("Start: \(session.0), End: \(session.1)")
+            }
+        }
+        .padding()
+        .navigationTitle("Practice Log")
+    }
 }

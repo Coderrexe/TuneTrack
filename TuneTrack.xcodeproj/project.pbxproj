@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		7C25C1B52C91DDED00E22B0F /* TuneTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25C1B42C91DDED00E22B0F /* TuneTrackApp.swift */; };
-		7C25C1B72C91DDED00E22B0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25C1B62C91DDED00E22B0F /* ContentView.swift */; };
 		7C25C1B92C91DDEE00E22B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C25C1B82C91DDEE00E22B0F /* Assets.xcassets */; };
 		7C25C1BC2C91DDEF00E22B0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C25C1BB2C91DDEF00E22B0F /* Preview Assets.xcassets */; };
 		7C25C1C62C91DDEF00E22B0F /* TuneTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25C1C52C91DDEF00E22B0F /* TuneTrackTests.swift */; };
 		7C25C1D02C91DDEF00E22B0F /* TuneTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25C1CF2C91DDEF00E22B0F /* TuneTrackUITests.swift */; };
 		7C25C1D22C91DDEF00E22B0F /* TuneTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25C1D12C91DDEF00E22B0F /* TuneTrackUITestsLaunchTests.swift */; };
+		7CF54BDF2C92E74600816982 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF54BDE2C92E74600816982 /* HomeView.swift */; };
+		7CF54BE12C92E76900816982 /* MetronomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF54BE02C92E76900816982 /* MetronomeView.swift */; };
+		7CF54BE32C92E78800816982 /* PracticeLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF54BE22C92E78800816982 /* PracticeLogView.swift */; };
+		7CF54BE52C92E7DF00816982 /* TunerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF54BE42C92E7DF00816982 /* TunerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		7C25C1B12C91DDED00E22B0F /* TuneTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuneTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C25C1B42C91DDED00E22B0F /* TuneTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneTrackApp.swift; sourceTree = "<group>"; };
-		7C25C1B62C91DDED00E22B0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7C25C1B82C91DDEE00E22B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C25C1BB2C91DDEF00E22B0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7C25C1C12C91DDEF00E22B0F /* TuneTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuneTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,10 @@
 		7C25C1CB2C91DDEF00E22B0F /* TuneTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuneTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C25C1CF2C91DDEF00E22B0F /* TuneTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneTrackUITests.swift; sourceTree = "<group>"; };
 		7C25C1D12C91DDEF00E22B0F /* TuneTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7CF54BDE2C92E74600816982 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7CF54BE02C92E76900816982 /* MetronomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeView.swift; sourceTree = "<group>"; };
+		7CF54BE22C92E78800816982 /* PracticeLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeLogView.swift; sourceTree = "<group>"; };
+		7CF54BE42C92E7DF00816982 /* TunerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				7C25C1B42C91DDED00E22B0F /* TuneTrackApp.swift */,
-				7C25C1B62C91DDED00E22B0F /* ContentView.swift */,
 				7C25C1B82C91DDEE00E22B0F /* Assets.xcassets */,
 				7C25C1BA2C91DDEF00E22B0F /* Preview Content */,
+				7CF54BDE2C92E74600816982 /* HomeView.swift */,
+				7CF54BE02C92E76900816982 /* MetronomeView.swift */,
+				7CF54BE22C92E78800816982 /* PracticeLogView.swift */,
+				7CF54BE42C92E7DF00816982 /* TunerView.swift */,
 			);
 			path = TuneTrack;
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C25C1B72C91DDED00E22B0F /* ContentView.swift in Sources */,
+				7CF54BE32C92E78800816982 /* PracticeLogView.swift in Sources */,
+				7CF54BDF2C92E74600816982 /* HomeView.swift in Sources */,
 				7C25C1B52C91DDED00E22B0F /* TuneTrackApp.swift in Sources */,
+				7CF54BE52C92E7DF00816982 /* TunerView.swift in Sources */,
+				7CF54BE12C92E76900816982 /* MetronomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
