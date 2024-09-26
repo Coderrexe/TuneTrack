@@ -13,6 +13,7 @@
 		7C25C1C62C91DDEF00E22B0F /* TuneTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25C1C52C91DDEF00E22B0F /* TuneTrackTests.swift */; };
 		7C25C1D02C91DDEF00E22B0F /* TuneTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25C1CF2C91DDEF00E22B0F /* TuneTrackUITests.swift */; };
 		7C25C1D22C91DDEF00E22B0F /* TuneTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25C1D12C91DDEF00E22B0F /* TuneTrackUITestsLaunchTests.swift */; };
+		7C29E39A2CA55DE800C22290 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C29E3992CA55DE800C22290 /* ContentView.swift */; };
 		7CF54BDF2C92E74600816982 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF54BDE2C92E74600816982 /* HomeView.swift */; };
 		7CF54BE12C92E76900816982 /* MetronomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF54BE02C92E76900816982 /* MetronomeView.swift */; };
 		7CF54BE32C92E78800816982 /* PracticeLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF54BE22C92E78800816982 /* PracticeLogView.swift */; };
@@ -47,6 +48,7 @@
 		7C25C1CB2C91DDEF00E22B0F /* TuneTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuneTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C25C1CF2C91DDEF00E22B0F /* TuneTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneTrackUITests.swift; sourceTree = "<group>"; };
 		7C25C1D12C91DDEF00E22B0F /* TuneTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7C29E3992CA55DE800C22290 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7CF54BDE2C92E74600816982 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7CF54BE02C92E76900816982 /* MetronomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeView.swift; sourceTree = "<group>"; };
 		7CF54BE22C92E78800816982 /* PracticeLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeLogView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				7C25C1B82C91DDEE00E22B0F /* Assets.xcassets */,
 				7C25C1BA2C91DDEF00E22B0F /* Preview Content */,
 				7CF54BDE2C92E74600816982 /* HomeView.swift */,
+				7C29E3992CA55DE800C22290 /* ContentView.swift */,
 				7CF54BE02C92E76900816982 /* MetronomeView.swift */,
 				7CF54BE22C92E78800816982 /* PracticeLogView.swift */,
 				7CF54BE42C92E7DF00816982 /* TunerView.swift */,
@@ -270,6 +273,7 @@
 			files = (
 				7CF54BE32C92E78800816982 /* PracticeLogView.swift in Sources */,
 				7CF54BDF2C92E74600816982 /* HomeView.swift in Sources */,
+				7C29E39A2CA55DE800C22290 /* ContentView.swift in Sources */,
 				7C25C1B52C91DDED00E22B0F /* TuneTrackApp.swift in Sources */,
 				7CF54BE52C92E7DF00816982 /* TunerView.swift in Sources */,
 				7CF54BE12C92E76900816982 /* MetronomeView.swift in Sources */,
