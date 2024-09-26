@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C1C7DD22C9C23C30023598E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7C25C1B12C91DDED00E22B0F /* TuneTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuneTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C25C1B42C91DDED00E22B0F /* TuneTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneTrackApp.swift; sourceTree = "<group>"; };
 		7C25C1B82C91DDEE00E22B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,6 +101,7 @@
 		7C25C1B32C91DDED00E22B0F /* TuneTrack */ = {
 			isa = PBXGroup;
 			children = (
+				7C1C7DD22C9C23C30023598E /* Info.plist */,
 				7C25C1B42C91DDED00E22B0F /* TuneTrackApp.swift */,
 				7C25C1B82C91DDEE00E22B0F /* Assets.xcassets */,
 				7C25C1BA2C91DDEF00E22B0F /* Preview Content */,
@@ -200,7 +202,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					7C25C1B02C91DDED00E22B0F = {
 						CreatedOnToolsVersion = 15.4;
@@ -434,8 +436,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TuneTrack/Preview Content\"";
+				DEVELOPMENT_TEAM = Z35GAZH3D3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TuneTrack/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need your microphone access to use the app's built-in tuner.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -462,8 +467,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TuneTrack/Preview Content\"";
+				DEVELOPMENT_TEAM = Z35GAZH3D3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TuneTrack/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need your microphone access to use the app's built-in tuner.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -485,7 +493,6 @@
 		7C25C1D92C91DDEF00E22B0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -504,7 +511,6 @@
 		7C25C1DA2C91DDEF00E22B0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -523,7 +529,6 @@
 		7C25C1DC2C91DDEF00E22B0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -540,7 +545,6 @@
 		7C25C1DD2C91DDEF00E22B0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;

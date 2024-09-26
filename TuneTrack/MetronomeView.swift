@@ -24,7 +24,7 @@ struct MetronomeView: View {
     }
 
     func playClick() {
-        guard let url = Bundle.main.url(forResource: "asdf", withExtension: "mp3") else { return }
+        guard let url = Bundle.main.url(forResource: "bounce", withExtension: "wav") else { return }
         let player = AVPlayer(url: url)
         player.play()
     }
