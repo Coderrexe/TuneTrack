@@ -14,6 +14,8 @@
 		7C25C1D02C91DDEF00E22B0F /* TuneTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25C1CF2C91DDEF00E22B0F /* TuneTrackUITests.swift */; };
 		7C25C1D22C91DDEF00E22B0F /* TuneTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25C1D12C91DDEF00E22B0F /* TuneTrackUITestsLaunchTests.swift */; };
 		7C29E39A2CA55DE800C22290 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C29E3992CA55DE800C22290 /* ContentView.swift */; };
+		7C49FBB42CAE9CCF00AC0344 /* SheetMusicLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C49FBB32CAE9CCF00AC0344 /* SheetMusicLibrary.swift */; };
+		7CED7DFC2CAD8DB0001CBF51 /* AIChatbotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CED7DFB2CAD8DB0001CBF51 /* AIChatbotView.swift */; };
 		7CF54BDF2C92E74600816982 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF54BDE2C92E74600816982 /* HomeView.swift */; };
 		7CF54BE12C92E76900816982 /* MetronomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF54BE02C92E76900816982 /* MetronomeView.swift */; };
 		7CF54BE32C92E78800816982 /* PracticeLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF54BE22C92E78800816982 /* PracticeLogView.swift */; };
@@ -49,6 +51,8 @@
 		7C25C1CF2C91DDEF00E22B0F /* TuneTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneTrackUITests.swift; sourceTree = "<group>"; };
 		7C25C1D12C91DDEF00E22B0F /* TuneTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7C29E3992CA55DE800C22290 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7C49FBB32CAE9CCF00AC0344 /* SheetMusicLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetMusicLibrary.swift; sourceTree = "<group>"; };
+		7CED7DFB2CAD8DB0001CBF51 /* AIChatbotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatbotView.swift; sourceTree = "<group>"; };
 		7CF54BDE2C92E74600816982 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7CF54BE02C92E76900816982 /* MetronomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeView.swift; sourceTree = "<group>"; };
 		7CF54BE22C92E78800816982 /* PracticeLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeLogView.swift; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 				7CF54BE02C92E76900816982 /* MetronomeView.swift */,
 				7CF54BE22C92E78800816982 /* PracticeLogView.swift */,
 				7CF54BE42C92E7DF00816982 /* TunerView.swift */,
+				7CED7DFB2CAD8DB0001CBF51 /* AIChatbotView.swift */,
+				7C49FBB32CAE9CCF00AC0344 /* SheetMusicLibrary.swift */,
 			);
 			path = TuneTrack;
 			sourceTree = "<group>";
@@ -272,8 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CF54BE32C92E78800816982 /* PracticeLogView.swift in Sources */,
+				7C49FBB42CAE9CCF00AC0344 /* SheetMusicLibrary.swift in Sources */,
 				7CF54BDF2C92E74600816982 /* HomeView.swift in Sources */,
 				7C29E39A2CA55DE800C22290 /* ContentView.swift in Sources */,
+				7CED7DFC2CAD8DB0001CBF51 /* AIChatbotView.swift in Sources */,
 				7C25C1B52C91DDED00E22B0F /* TuneTrackApp.swift in Sources */,
 				7CF54BE52C92E7DF00816982 /* TunerView.swift in Sources */,
 				7CF54BE12C92E76900816982 /* MetronomeView.swift in Sources */,

@@ -34,17 +34,17 @@ struct ContentView: View {
                     Text("Practice Log")
                 }
             
-//            AIChatbotView()
-//                .tabItem {
-//                    Image(systemName: "message.fill")
-//                    Text("AI Chatbot")
-//                }
-//            
-//            SheetMusicLibraryView()
-//                .tabItem {
-//                    Image(systemName: "music.note.list")
-//                    Text("Sheet Music")
-//                }
+            AIChatbotView()
+                .tabItem {
+                    Image(systemName: "message.fill")
+                    Text("AI Chatbot")
+                }
+            
+            SheetMusicLibraryView()
+                .tabItem {
+                    Image(systemName: "book.fill")
+                    Text("Sheet Music Library")
+                }
         }
     }
 }
