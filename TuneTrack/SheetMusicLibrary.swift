@@ -91,11 +91,3 @@ struct SheetMusicLibraryView_Previews: PreviewProvider {
         SheetMusicLibraryView()
     }
 }
-/*
-random interests/hobbies that might not have a point.
-Personality
- Sense of humour
- 
- What is something about you that is not included anywhere else on your application? (200 characters)          
- 
-*/

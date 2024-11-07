@@ -10,15 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            HomeView()
-                .tabItem {
-                    Image(systemName: "house.fill")
-                    Text("Home")
-                }
-            
             MetronomeView()
                 .tabItem {
-                    Image(systemName: "metronome.fill")
+                    Image(systemName: "metronome")
                     Text("Metronome")
                 }
             
@@ -30,20 +24,20 @@ struct ContentView: View {
             
             PracticeLogView()
                 .tabItem {
-                    Image(systemName: "book.fill")
-                    Text("Practice Log")
+                    Image(systemName: "music.note")
+                    Text("Practice")
                 }
             
             AIChatbotView()
                 .tabItem {
-                    Image(systemName: "message.fill")
-                    Text("AI Chatbot")
+                    Image(systemName: "message")
+                    Text("AI")
                 }
             
             SheetMusicLibraryView()
                 .tabItem {
-                    Image(systemName: "book.fill")
-                    Text("Sheet Music Library")
+                    Image(systemName: "book")
+                    Text("Library")
                 }
         }
     }
